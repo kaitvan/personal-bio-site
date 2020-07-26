@@ -1,3 +1,152 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
 body {
-    background-color: bisque;
+    background-color: #C9AAB2;
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 400;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+/* 
+COLOR PALETTE (lightest to darkest)
+Twilight #E8D5D9
+Lily #C9AAB2
+Brandy Rose #B2868A
+Mountain Mist #968B9D
+Xiketic #1A1423
+*/
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Merriweather', serif;
+    margin-bottom: 1em;
+}
+
+h1 {
+    font-size: 3em;
+}
+
+#banner {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 4em 2em 4em 2em;
+    background-image: url(https://blog.reallyrightstuff.com/wp-content/uploads/2018/03/header.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-top: 0;
+    position: relative;
+    text-align: center;
+    overflow: hidden;
+    height: 30vh;
+    line-height: 1.5em;
+}
+
+#banner .inner {
+    text-align: center;
+    position: relative;
+    z-index: 2;
+    width: 75%
+}
+
+header {
+    width: 100%;
+    color: #1A1423;
+}
+
+#main {
+    padding: 4em 0 2em 0;
+}
+
+#main .inner {
+    width: 90%;
+    max-width: 80em;
+    margin: 0 auto;
+}
+
+.thumbnails {
+    display: flex;
+    align-items: stretch;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.box {
+    width: 45%;
+    border-radius: 4px;
+    background-color: #E8D5D9;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.box p {
+    padding: 0 1em 1em 1em;
+    line-height: 1.5em;
+}
+
+
+
+.image-fit {
+    margin: 0;
+    display: block;
+    border-radius: 4px;
+    position: relative;
+    width: 100%;
+}
+
+img {
+    width: 300px;
+    padding: 0 1em 1em 1em;
+}
+
+.live-button {
+    cursor: pointer;
+    background-color: #968B9D;
+    color: white;
+    margin: 0 auto 1em auto;
+    display: block;
+    width: 100px;
+    border-radius: 4px;
+    padding: 0 1.5em;
+    text-decoration: none;
+    height: 2.85em;
+    line-height: 2.95em;
+}
+
+.github-button {
+    cursor: pointer;
+    background-color: #B2868A;
+    color: white;
+    margin: 0 auto 1em auto;
+    display: block;
+    width: 100px;
+    border-radius: 4px;
+    padding: 0 1.5em;
+    text-decoration: none;
+    height: 2.85em;
+    line-height: 2.95em;
+}
+
+footer {
+}
+
+#footer {
+    padding: 2em 0 2em 0;
+    text-align: center;
+    color: white;
+    background-color: #B2868A;
+    height: 20vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    line-height: 1.5em;
+}
+
+#footer .inner {
+    width: 75%;
 }
