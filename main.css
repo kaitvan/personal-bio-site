@@ -4,7 +4,7 @@
 }
 
 body {
-    background-color: #C9AAB2;
+    background-color: #D4B0B8;
     font-family: 'Work Sans', sans-serif;
     font-weight: 400;
     display: flex;
@@ -60,7 +60,7 @@ header {
 }
 
 #main {
-    padding: 4em 0 2em 0;
+    padding: 2em 0 2em 0;
 }
 
 #main .inner {
@@ -81,7 +81,7 @@ header {
     border-radius: 4px;
     background-color: #E8D5D9;
     text-align: center;
-    margin: 0 auto;
+    margin: 1em auto;
 }
 
 .box p {
@@ -89,19 +89,18 @@ header {
     line-height: 1.5em;
 }
 
-
-
 .image-fit {
     margin: 0;
     display: block;
     border-radius: 4px;
     position: relative;
-    width: 100%;
+    object-fit: contain;
 }
 
 img {
-    width: 300px;
-    padding: 0 1em 1em 1em;
+    width: 100%;
+    padding-bottom: 1em;
+    border-radius: 4px 4px 0 0;
 }
 
 .live-button {
@@ -138,7 +137,7 @@ footer {
 #footer {
     padding: 2em 0 2em 0;
     text-align: center;
-    color: white;
+    color: #1A1423;
     background-color: #B2868A;
     height: 20vh;
     display: flex;
@@ -149,4 +148,10 @@ footer {
 
 #footer .inner {
     width: 75%;
+}
+
+#copyright {
+    text-transform: uppercase;
+    font-size: 0.75em;
+    padding-top: 1em;
 }
