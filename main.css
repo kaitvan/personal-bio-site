@@ -109,12 +109,13 @@ img {
     color: white;
     margin: 0 auto 1em auto;
     display: block;
-    width: 100px;
+    width: 75%;
     border-radius: 4px;
     padding: 0 1.5em;
     text-decoration: none;
     height: 2.85em;
     line-height: 2.95em;
+    object-fit: contain;
 }
 
 .github-button {
@@ -123,12 +124,13 @@ img {
     color: white;
     margin: 0 auto 1em auto;
     display: block;
-    width: 100px;
+    width: 75%;
     border-radius: 4px;
     padding: 0 1.5em;
     text-decoration: none;
     height: 2.85em;
     line-height: 2.95em;
+    object-fit: contain;
 }
 
 footer {
