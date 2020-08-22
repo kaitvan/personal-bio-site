@@ -8,4 +8,4 @@ The homepage serves as a portfolio with cards including a screenshot of the webp
 The footer contains contact information and a brief description of the technologies I use in my projects.
 
 # Gif View of Site
-![Snapshot View of Site](.images/personal-bio-gif.gif)
+![Snapshot View of Site](/images/personal-bio-gif.gif)
